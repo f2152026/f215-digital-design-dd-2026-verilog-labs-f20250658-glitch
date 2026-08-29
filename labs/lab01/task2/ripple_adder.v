@@ -22,7 +22,7 @@ module ripple_adder(
 
   wire c1, c2, c3;
 
-  FA_Gate FA0 (
+ FA_Gate FA0 (
     .a(a[0]),
     .b(b[0]),
     .cin(cin),
@@ -53,8 +53,4 @@ FA_Gate FA3 (
     .sum(sum[3]),
     .cout(cout)
 );
-
-
-  // TODO: your four FA_Gate instances go here.
-
 endmodule
